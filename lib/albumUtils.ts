@@ -59,7 +59,7 @@ export async function createAlbumPage(imageData: Record<string, string>): Promis
     }));
 
     // 4. Define grid layout and draw each polaroid
-    const grid = { cols: 3, rows: 4, padding: 80 };
+    const grid = { cols: 3, rows: 3, padding: 80 };
     const contentTopMargin = 300; // Space for the header
     const contentHeight = canvasHeight - contentTopMargin;
     const cellWidth = (canvasWidth - grid.padding * (grid.cols + 1)) / grid.cols;

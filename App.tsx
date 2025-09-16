@@ -24,13 +24,9 @@ const STYLES = {
         name: 'Sketch',
         prompt: "Create a detailed charcoal sketch portrait of the person in this photo. Emphasize strong light and shadow (chiaroscuro) for a dramatic, classic effect. The background should be minimal, like a piece of artist's paper."
     },
-    'cyberpunk': {
-        name: 'Cyberpunk',
-        prompt: "Transform this photo into a cyberpunk-style portrait. Incorporate vibrant neon lighting, futuristic cybernetic enhancements or accessories, and a gritty, high-tech urban background. The mood should be edgy and futuristic."
-    },
     'vaporwave': {
-        name: 'Vaporwave',
-        prompt: "Transform this photo into a vaporwave aesthetic portrait. Use a palette of neon pinks, purples, and cyans. Incorporate elements like 80s/90s computer graphics, grid lines, and perhaps a subtle hint of a Roman statue or palm tree in the abstract background. A nostalgic, dreamy, and slightly surreal mood is key."
+        name: 'Pastel Pop',
+        prompt: "Transform the person in this photo into a vibrant K-pop idol style portrait. The aesthetic should be cute, energetic, and trendy. Adorn their hair with large, puffy, shiny bows (like pink and light blue) and scatter small, colorful star-shaped stickers or confetti on their face and hair. The makeup should be soft and doll-like, with prominent blush and glossy lips. Use bright, even studio lighting against a solid, vibrant pastel background (like lavender or bubblegum pink)."
     },
     '3d-render': {
         name: '3D Render',
@@ -43,14 +39,6 @@ const STYLES = {
     'pop-art': {
         name: 'Pop Art',
         prompt: "Create a Pop Art portrait of the person from this photo, inspired by artists like Andy Warhol. Use bold, flat colors, strong black outlines, and a screen-printed look. The background should be a single, vibrant, solid color."
-    },
-    'surrealism': {
-        name: 'Surrealism',
-        prompt: "Create a surrealist portrait inspired by the person in the photo. Blend their likeness with dreamlike, bizarre, and unexpected elements. The composition should be illogical and thought-provoking, in the style of Salvador Dalí or René Magritte."
-    },
-    'cubism': {
-        name: 'Cubism',
-        prompt: "Generate a Cubist portrait of the person in this photo. Deconstruct their features into geometric shapes and depict them from multiple viewpoints simultaneously. Use a muted color palette of browns, grays, and greens. The result should be abstract and analytical."
     },
     'anime': {
         name: 'Anime',
@@ -260,7 +248,7 @@ function App() {
             
             <div className="z-10 flex flex-col items-center justify-center w-full h-full flex-1 min-h-0">
                 <div className="text-center mb-10">
-                    <h1 className="text-6xl md:text-8xl font-caveat font-bold text-neutral-100">Profile Picture Perfect</h1>
+                    <h1 className="text-6xl md:text-8xl font-caveat font-bold text-neutral-100">Psule Profile</h1>
                     <p className="font-permanent-marker text-neutral-300 mt-2 text-xl tracking-wide">Generate your portrait in iconic art styles.</p>
                 </div>
 
@@ -336,7 +324,7 @@ function App() {
                      <>
                         <div className="w-full max-w-7xl flex-1 overflow-y-auto mt-4 p-4">
                             <motion.div
-                                className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center"
+                                className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 justify-items-center"
                                 variants={{
                                     hidden: { opacity: 0 },
                                     show: {
