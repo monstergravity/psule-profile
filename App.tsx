@@ -24,29 +24,37 @@ const STYLES = {
         name: 'Sketch',
         prompt: "Create a detailed charcoal sketch portrait of the person in this photo. Emphasize strong light and shadow (chiaroscuro) for a dramatic, classic effect. The background should be minimal, like a piece of artist's paper."
     },
-    'vaporwave': {
-        name: 'Pastel Pop',
-        prompt: "Transform the person in this photo into a vibrant K-pop idol style portrait. The aesthetic should be cute, energetic, and trendy. Adorn their hair with large, puffy, shiny bows (like pink and light blue) and scatter small, colorful star-shaped stickers or confetti on their face and hair. The makeup should be soft and doll-like, with prominent blush and glossy lips. Use bright, even studio lighting against a solid, vibrant pastel background (like lavender or bubblegum pink)."
-    },
     '3d-render': {
         name: '3D Render',
         prompt: "Recreate the person in this photo as a stylized 3D character render, similar to modern animated movies. Focus on soft lighting, detailed textures for hair and clothing, and a friendly, appealing expression. The background should be a simple, clean studio setup."
-    },
-    'impressionism': {
-        name: 'Impressionism',
-        prompt: "Generate a portrait of the person in this photo in the style of Impressionism. Use visible, short, thick brushstrokes and a focus on the accurate depiction of light and its changing qualities. The overall effect should be a fleeting moment captured on canvas. Avoid hard outlines."
     },
     'pop-art': {
         name: 'Pop Art',
         prompt: "Create a Pop Art portrait of the person from this photo, inspired by artists like Andy Warhol. Use bold, flat colors, strong black outlines, and a screen-printed look. The background should be a single, vibrant, solid color."
     },
-    'anime': {
-        name: 'Anime',
-        prompt: "Illustrate the person in this photo in a classic 90s anime/manga style. Emphasize large, expressive eyes, stylized hair, and clean lines. The background should be simple, perhaps with speed lines or a soft gradient to focus on the character."
-    },
     'comic-book': {
         name: 'Comic Book',
         prompt: "Transform this photo into a Western comic book style portrait. Use bold ink lines, dynamic shading with cross-hatching or Ben-Day dots, and a dramatic, action-oriented pose. The colors should be vibrant and slightly saturated."
+    },
+    'lil-stinker': {
+        name: "Lil' Stinker",
+        prompt: "Create a cute, funny, and cartoonish portrait of the person in this photo. The main feature is a large, smiling poop emoji sitting directly on top of their head like a hat. The style should be bright, colorful, and playful, similar to a modern sticker or emoji. Use a simple, vibrant background."
+    },
+    'googly-giggle': {
+        name: "Googly Giggle",
+        prompt: "Redraw the person in this photo in a hilarious cartoon style, but with giant, wobbly, plastic googly eyes placed over their real eyes. The expression should be surprised or silly. The rest of the portrait should be slightly simplified and colorful, like a modern comic. Keep the background simple and bright to focus on the funny face."
+    },
+    'sticker-bomb': {
+        name: "Sticker Bomb",
+        prompt: "Transform this photo into a vibrant 'sticker bomb' collage. The person should be illustrated in a clean, modern sticker style. Surround them and partially cover them with a chaotic and overlapping collection of other cute and trendy stickers, like smiley faces, stars, lightning bolts, pizza slices, and retro internet symbols. The overall feeling should be energetic, colorful, and youthful."
+    },
+    'claymate': {
+        name: "Claymate",
+        prompt: "Recreate the person in this photo as a charming character made of modeling clay, in the style of classic stop-motion animation. The textures should look soft and show subtle thumbprints, as if hand-sculpted. Use warm, inviting lighting. The background should be a simple, miniature set piece."
+    },
+    'graffiti': {
+        name: "Graffiti",
+        prompt: "Create a powerful street art portrait of the person in this photo. The style should be a vibrant graffiti mural, as if spray-painted onto a textured brick wall. Use bold outlines, dynamic drips, and a layered, colorful fill. The background should be the brick wall, with some abstract spray-paint tags and splatters around the portrait."
     }
 };
 
