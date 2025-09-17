@@ -1,3 +1,4 @@
+
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
@@ -19,10 +20,6 @@ const STYLES = {
     'watercolor': {
         name: 'Watercolor',
         prompt: "Create a portrait of the person in this photo in a soft, flowing watercolor style. Use a wet-on-wet technique with delicate washes of color and visible brushstrokes. The background should be light and abstract, suggesting a paper texture."
-    },
-    'sketch': {
-        name: 'Sketch',
-        prompt: "Create a detailed charcoal sketch portrait of the person in this photo. Emphasize strong light and shadow (chiaroscuro) for a dramatic, classic effect. The background should be minimal, like a piece of artist's paper."
     },
     '3d-render': {
         name: '3D Render',
